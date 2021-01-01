@@ -1,6 +1,6 @@
 {
   "name": "parachute",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "repository": {
     "type": "git",
     "url": "git@gitlab.com:ryanwells/parachute.git"
@@ -30,7 +30,8 @@
     "gulp-strip-debug": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-useref": "^4.0.0",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "semantic-versioning": "^1.0.2"
   },
   "dependencies": {
     "jquery": "^3.5.1",
