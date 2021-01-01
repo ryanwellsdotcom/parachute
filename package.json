@@ -1,0 +1,39 @@
+{
+  "name": "parachute",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:ryanwells/parachute.git"
+  },
+  "scripts": {
+    "start": "gulp serve-dev",
+    "build": "gulp prod"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "del": "^4.0.0",
+    "eslint": "^6.5.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-inject": "^5.0.2",
+    "gulp-open": "^3.0.1",
+    "gulp-rev": "^9.0.0",
+    "gulp-rev-replace": "^0.4.4",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.0",
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1"
+  }
+}
